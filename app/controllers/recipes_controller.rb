@@ -18,7 +18,7 @@ class RecipesController < ApplicationController
 				recipe: [
 					new_recipe
 				]
-			}, status: :created
+			}
 		else
 			render json: {
 				message: "Recipe creation failed!",
