@@ -23,7 +23,7 @@ class RecipesController < ApplicationController
 			render json: {
 				message: "Recipe creation failed!",
 				required: "title, making_time, serves, ingredients, cost"
-			}, status: :not_found
+			}
 		end
 	end
 
